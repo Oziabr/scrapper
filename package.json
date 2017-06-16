@@ -1,0 +1,20 @@
+{
+  "name": "scraper",
+  "version": "0.0.1",
+  "description": "dynamic site archiver",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor conf.coffee",
+    "console": "protractor conf.coffee --elementExplorer"
+  },
+  "author": "Yury Tvardovsky",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.1.4",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "jasmine-spec-reporter": "^3.2.0",
+    "lodash": "^4.17.4",
+    "mkdirp": "^0.5.1"
+  }
+}
